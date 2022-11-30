@@ -25,10 +25,10 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       body: Column(
         children: [
           Image.asset('images/einstein.jpg'),
-          SizedBox(height: 10,)
+          SizedBox(height: 10,),
           const Divider(
             color: Colors.black,
-          )
+          ),
         ],
       ),
     );
