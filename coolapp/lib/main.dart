@@ -35,14 +35,14 @@ class _RootPageState extends State<RootPage> {
     return Scaffold(
       appBar: AppBar(
         //AppBar je gornji dio ekrana
-        title: Text('Flutter 🐔'),
+        title: const Text('Flutter 🐔'),
       ),
       body: const HomePage(), //klasa iz home_page.dart
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           debugPrint('Floating Action Button pressed');
         },
-        child: Icon(Icons.add), //ono što će biti unutar Widgeta
+        child: const Icon(Icons.add), //ono što će biti unutar Widgeta
       ),
       bottomNavigationBar: NavigationBar(
         destinations: const [
